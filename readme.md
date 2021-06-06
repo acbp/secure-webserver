@@ -1,4 +1,4 @@
-h1. Creating self-signed certificate
+# Creating self-signed certificate
 ```shell
 penssl genrsa -out key.pem
 openssl req -new -key key.pem -out csr.pem
