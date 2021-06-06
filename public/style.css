@@ -1,0 +1,32 @@
+html { height:100vh }
+body { min-height:100vh;} 
+*,html { 
+ background-color:#000;
+ color:#666;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html:before,{
+content:"Site realmente seguro";
+}
+body{
+display:flex;
+flex-flow: row wrap;
+align-content:center;
+justify-content:center;
+font-size: calc(3em+3vw);
+background-image: url('https://cdn.wallpapersafari.com/13/14/XdZGlu.gif')!important; 
+background-repeat: repeat;
+}
+body:before{
+content:"Não tem nada aqui!";
+text-transform: uppercase;
+font-size: calc(3em+3vw);
+}
+footer:before{
+content:"vaza!"
+}
+head:after,head:before{
+content:'0.5';
+}
